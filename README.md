@@ -145,7 +145,7 @@ this lets you keep `servercolumns.css` separate while changing its settings from
 
 server columns is intended for discord's current visual refresh interface.
 
-it includes support for:
+includes support for:
 
 - normal server icons
 - direct messages
@@ -165,6 +165,6 @@ because of this, some discord updates may temporarily break parts of the layout 
 
 ## credits
 
-based on the original servercolumns theme by mwittrien.
+based on the original ServerColumns theme by [mwittrien](https://github.com/mwittrien).
 
 maintained and adapted by finney.
