@@ -1,6 +1,6 @@
 # server-columns
 
-a lightweight discord css addon that displays server icons in multiple columns instead of a single vertical list.
+lightweight discord css addon that displays server icons in multiple columns instead of a single vertical list.
 
 designed for custom discord clients that support css themes, such as vencord and betterdiscord.
 
