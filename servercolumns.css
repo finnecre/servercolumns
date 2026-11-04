@@ -168,3 +168,50 @@
 .wrapper_ef3116 .folderGroup__48112:not(.isExpanded__48112) .stack_dbd263 {
     display: none !important;
 }
+
+/* CENTER HOME / DMS BUTTON */
+.wrapper_ef3116 .tutorialContainer__1f388 {
+    grid-column: 1 / -1 !important;
+    width: var(--sc-grid-width) !important;
+
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.wrapper_ef3116 .tutorialContainer__1f388 .listItem__650eb {
+    width: var(--sc-icon-size) !important;
+    margin: 0 !important;
+}
+
+
+/* KEEP SERVER BAR STILL WHEN A FOLDER OPENS */
+body.folderContentIsOpen_ac0584 .wrapper_ef3116,
+.wrapper_ef3116.content_ac0584 {
+    width: var(--sc-sidebar-width) !important;
+    min-width: var(--sc-sidebar-width) !important;
+}
+
+.wrapper_ef3116.content_ac0584 .scroller_ef3116 {
+    padding-left: var(--sc-left-padding) !important;
+}
+
+.wrapper_ef3116.content_ac0584 .scroller_ef3116 > .stack_dbd263 {
+    width: var(--sc-grid-width) !important;
+    min-width: var(--sc-grid-width) !important;
+    max-width: var(--sc-grid-width) !important;
+}
+
+
+/* DON'T LET EXPANDED FOLDERS CHANGE COLUMN WIDTH */
+.wrapper_ef3116.content_ac0584 .folderGroup__48112 {
+    width: var(--sc-icon-size) !important;
+    min-width: var(--sc-icon-size) !important;
+    max-width: var(--sc-icon-size) !important;
+    margin: 0 !important;
+}
+
+.wrapper_ef3116.content_ac0584 .folderGroup__48112 [role="group"] {
+    width: var(--sc-icon-size) !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
