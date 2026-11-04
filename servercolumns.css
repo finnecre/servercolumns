@@ -215,3 +215,54 @@ body.folderContentIsOpen_ac0584 .wrapper_ef3116,
     padding: 0 !important;
     margin: 0 !important;
 }
+
+/* KEEP OPEN FOLDERS IN THEIR ORIGINAL COLUMN */
+.wrapper_ef3116.content_ac0584 {
+    width: var(--sidebarwidth) !important;
+    min-width: var(--sidebarwidth) !important;
+}
+
+.wrapper_ef3116.content_ac0584 .scroller_ef3116 {
+    padding-left: var(--sidepadding) !important;
+}
+
+/* DON'T LET AN OPEN FOLDER EXPAND ACROSS THE SERVER BAR */
+.wrapper_ef3116.content_ac0584 .folderGroup__48112 {
+    width: var(--guildsize) !important;
+    min-width: var(--guildsize) !important;
+    max-width: var(--guildsize) !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+    justify-self: start !important;
+}
+
+/* KEEP FOLDER ICON THE SAME SIZE */
+.wrapper_ef3116.content_ac0584 .folderGroup__48112 > .listItem__650eb {
+    width: var(--guildsize) !important;
+    min-width: var(--guildsize) !important;
+    max-width: var(--guildsize) !important;
+    margin: 0 !important;
+}
+
+/* OPENED SERVERS STAY UNDER THE FOLDER */
+.wrapper_ef3116.content_ac0584 .folderGroup__48112 [role="group"] {
+    width: var(--guildsize) !important;
+    min-width: var(--guildsize) !important;
+    max-width: var(--guildsize) !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: var(--rowgap) !important;
+}
+
+/* DON'T STRETCH THE FOLDER BACKGROUND */
+.wrapper_ef3116.content_ac0584 .folderGroupBackground__48112 {
+    width: var(--guildsize) !important;
+    left: 0 !important;
+    right: auto !important;
+}
