@@ -17,13 +17,13 @@
 
 /* widen the server rail */
 nav:has([data-list-id="guildsnav"]) {
-    width: calc(var(--serverwidth) + 28px) !important;
-    min-width: calc(var(--serverwidth) + 28px) !important;
+    width: calc(var(--serverwidth) + 30px) !important;
+    min-width: calc(var(--serverwidth) + 30px) !important;
 }
 
 /* main scrolling container */
 [data-list-id="guildsnav"] > div {
-    width: calc(var(--serverwidth) + 28px) !important;
+    width: calc(var(--serverwidth) + 30px) !important;
 }
 
 /* SERVER GROUPS */
